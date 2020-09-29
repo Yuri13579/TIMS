@@ -28,7 +28,6 @@ namespace TIMS.Controllers
         public async Task<List<ProductPortalDto>> GetProductImage(int id)
         {
             var products = await _saleService.GetPortalProducts();
-            
             return products;
         }
     }
